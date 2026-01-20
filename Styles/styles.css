@@ -1,0 +1,43 @@
+:root {
+    --rosa: #ff00b9;
+    --vermell: #ec0e43;
+    --negre: #272626;
+    --blanc: #fffffe
+}
+
+header, body, footer {
+    margin: 3rem;
+    border: 3rem;
+    /*padding: 2rem;*/
+}
+
+.instrument-serif-regular {
+    font-family: "Instrument Serif Regular", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+    font-family: "Instrument Serif Italic", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.zalando-sans-regular  {
+  font-family: "Zalando Sans Regular", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.zalando-sans-italic  {
+  font-family: "Zalando Sans Italic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.Titol {
+    font-family: "Zalando Sans Italic", sans-serif;
+}
