@@ -2,7 +2,8 @@
     --rosa: #ff00b9;
     --vermell: #ec0e43;
     --negre: #272626;
-    --blanc: #fffffe
+    --blanc: #fffffe;
+    --taronja: #ff8a00;
 }
 
 header, body, footer {
@@ -40,4 +41,8 @@ header, body, footer {
 
 .Titol {
     font-family: "Zalando Sans Italic", sans-serif;
+}
+
+.Header {
+background-color: var(--taronja);
 }
