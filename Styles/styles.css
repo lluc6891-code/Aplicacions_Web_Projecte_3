@@ -41,6 +41,8 @@ header, body, footer {
 
 .Titol {
     font-family: "Zalando Sans Italic", sans-serif;
+    font-size: 35px;
+    text-align: center;
 }
 
 .Header {
