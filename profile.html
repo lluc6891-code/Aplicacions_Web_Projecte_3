@@ -7,63 +7,70 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-        <title>Perfil/title>
-        </head>
-        <body>
-            <header> <!--class = "Header"-->
-                <!--TODO: Arreglar class Header per fer que el color cobreixi tota la part superior-->
-                <h1 class = "Titol">
-                    Pàgina de Perfil
-                </h1>
-            </header>
-            <div>
-                <nav>
-                <a href="index.html"> | Index |</a>
-                <a href="profile.html">  Perfil |</a>
-                </nav>
-            </div>
-            <form>
-                <fieldset>
-                    <h2 class="Titol">
-                        Contacta omplint tots els camps
-                    </h2>
-                    <section>
-                        <div class="Camps">
-                            <label>
-                                Nom:
-                            </label>
-                            <input type="text"
-                            placeholder="El teu nom aquí">
-                            <label>
-                                Telèfon:
-                            </label>
-                            <input type="number"
-                            placeholder="El teu número de telèfon">
-                        </div>
-                    </section>
-                    <div class="Camps2">
+    <title>Perfil</title>
+    </head>
+    <body>
+        <header> <!--class = "Header"-->
+            <!--TODO: Arreglar class Header per fer que el color cobreixi tota la part superior-->
+            <img src="Imatges/FrogEye.jpg" width="90" alt="FrogEye">
+            <span class = "Titol">
+                Pàgina Principal
+            </span>
+        </header>
+        <div>
+            <nav>
+            <a href="index.html"> | Index |</a>
+            <a href="profile.html">  Perfil |</a>
+            <a href="day.html">  Registre Diari |</a>
+            <a href="dashboard.html">  Dashboard |</a>
+            <a href="companies.html">  Companyies |</a>
+            <a href="company.html">  Companyia |</a>
+            <a href="chat.html">  Xat |</a>
+            <a href="center.html">  El Centre |</a>
+            <a href="validate.html">  Validació |</a>
+            </nav>
+        </div>
+        <form>
+            <fieldset>
+                <h2 class="Titol">
+                    Inicia sessió amb el teu correu
+                </h2>
+                <section>
+                    <div>
                         <label>
-                            Correu:
+                            Email:
                         </label>
+                        <br>
                         <input type="email"
-                        placeholder="El teu mail de contacte">
+                        placeholder="Ex: correu@gmail.com">
+                        <br><br>
                         <label>
-                            Missatge:
+                            Contrasenya:
                         </label>
-                        <textarea name="message" rows="10" cols="30"
-                        placeholder="Escriu...">
-                    </textarea>
-                </div>
-                <br><br>
-                <div class="Enviar">
-                    <input type="submit" value="Enviar">
-                </div>
+                        <input type="text"
+                        placeholder="Contrasenya">
+                    </div>
+                </section>
+                <br>
+                <div>
+                </textarea>
+            </div>
+            <br><br>
+            <p class = "Underline">
+                <a href="#">
+                    Has oblidat la teva contrasenya?
+                </a>
+            </p>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
 
 
-            </fieldset>
-        </form>
-    </body>
-    <footer>
+        </fieldset>
+    </form>
+</body>
+<footer>
 
-    </footer>
+</footer>
 </html>
