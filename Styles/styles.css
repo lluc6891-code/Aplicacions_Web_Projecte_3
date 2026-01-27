@@ -4,6 +4,7 @@
     --negre: #272626;
     --blanc: #fffffe;
     --taronja: #ff8a00;
+    --blauClar: #0091ff;
 }
 
 header, body, footer {
@@ -42,7 +43,7 @@ header, body, footer {
 .Titol {
     font-family: "Zalando Sans Italic", sans-serif;
     font-size: 35px;
-    text-align: center;
+    text-align: right;
 }
 
 .Header {
@@ -51,4 +52,17 @@ header, body, footer {
 
 body {
     font-family: "Instrument Serif Regular", serif;
+}
+
+.Titol2 {
+    font-family: "Zalando Sans Italic", sans-serif;
+    text-align: center;
+}
+
+.container {
+    font-family: "Zalando Sans Italic", sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    font-size: 35px;
 }
