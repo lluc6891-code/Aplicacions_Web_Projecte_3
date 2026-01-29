@@ -7,7 +7,9 @@
     --blauClar: #0091ff;
 }
 
-header, body, footer {
+header,
+body,
+footer {
     margin: 3rem;
     border: 3rem;
     /*padding: 2rem;*/
@@ -26,14 +28,14 @@ header, body, footer {
 }
 
 
-.zalando-sans-regular  {
+.zalando-sans-regular {
     font-family: "Zalando Sans Regular", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
-.zalando-sans-italic  {
+.zalando-sans-italic {
     font-family: "Zalando Sans Italic", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
