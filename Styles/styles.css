@@ -1,18 +1,19 @@
 :root {
     --rosa: #ff00b9;
     --vermell: #ec0e43;
-    --negre: #272626;
+    --negre: #020202;
     --blanc: #fffffe;
     --taronja: #ff8a00;
+    --taronjaFosc: #f57a00;
     --blauClar: #0091ff;
+    --blauFosc: #1103ce;
 }
 
-header,
-body,
-footer {
-    margin: 3rem;
-    border: 3rem;
-    /*padding: 2rem;*/
+html {
+    margin: 5rem;
+    border: 5rem;
+    background-color: var(--negre);
+    color: var(--blanc);
 }
 
 .instrument-serif-regular {
@@ -42,17 +43,21 @@ footer {
     font-style: italic;
 }
 
-.Titol {
+header {
     font-family: "Zalando Sans Italic", sans-serif;
-    font-size: 35px;
-    text-align: right;
 }
 
-.Header {
-    background-color: var(--taronja);
+footer {
+    font-size: 12px;
+    font-family: "Instrument Serif Regular", serif;
+    text-align: center;
 }
 
-body {
+.navegacio {
+    color: var(--blauClar);
+}
+
+.text {
     font-family: "Instrument Serif Regular", serif;
 }
 
@@ -64,7 +69,8 @@ body {
 .container {
     font-family: "Zalando Sans Italic", sans-serif;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     padding: 10px;
-    font-size: 35px;
+    font-size: 45px;
+    background-color: var(--taronjaFosc);
 }
