@@ -16,40 +16,27 @@ html {
     color: var(--blanc);
 }
 
-.instrument-serif-regular {
-    font-family: "Instrument Serif Regular", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.instrument-serif-regular-italic {
-    font-family: "Instrument Serif Italic", serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-
-.zalando-sans-regular {
-    font-family: "Zalando Sans Regular", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.zalando-sans-italic {
-    font-family: "Zalando Sans Italic", sans-serif;
+.zalando-sans-heavy {
+    font-family: "Zalando Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
-    font-style: italic;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.cactus-classical-serif-regular {
+    font-family: "Cactus Classical Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
-    font-family: "Zalando Sans Italic", sans-serif;
+    font-family: "Zalando Sans", sans-serif;
 }
 
 footer {
     font-size: 12px;
-    font-family: "Instrument Serif Regular", serif;
     text-align: center;
 }
 
@@ -57,17 +44,20 @@ footer {
     color: var(--blauClar);
 }
 
-.text {
-    font-family: "Instrument Serif Regular", serif;
-}
-
-.Titol2 {
-    font-family: "Zalando Sans Italic", sans-serif;
+.center {
     text-align: center;
 }
 
+.Titol {
+    font-family: "Zalando Sans", sans-serif;
+}
+
+.text {
+    font-family: "Cactus Classical Serif", serif
+}
+
 .container {
-    font-family: "Zalando Sans Italic", sans-serif;
+
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
